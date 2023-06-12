@@ -106,7 +106,7 @@ Wait for the Jenkins to be restarted.
 Run the below command to Install Docker
 
 ```
-sudo apt update
+sudo apt update -y
 sudo apt install docker.io
 ```
  

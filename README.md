@@ -26,7 +26,7 @@ Pre-Requisites:
 Install Java
 
 ```
-sudo apt update
+sudo apt update -y
 sudo apt install openjdk-11-jre
 ```
 

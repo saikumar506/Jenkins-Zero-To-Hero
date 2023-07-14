@@ -45,7 +45,7 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
   https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
   /etc/apt/sources.list.d/jenkins.list > /dev/null
 sudo apt-get update -y
-sudo apt-get install jenkins
+sudo apt-get install jenkins -y
 ```
 
 **Note: ** By default, Jenkins will not be accessible to the external world due to the inbound traffic restriction by AWS. Open port 8080 in the inbound traffic rules as show below.
@@ -107,7 +107,7 @@ Run the below command to Install Docker
 
 ```
 sudo apt update -y
-sudo apt install docker.io
+sudo apt install docker.io -y
 ```
  
 ### Grant Jenkins user and Ubuntu user permission to docker deamon.
